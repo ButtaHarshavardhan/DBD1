@@ -16,7 +16,7 @@ const MENU_ITEMS = [
     name: 'Benne Masala Dose',
     description: 'Crispy on the outside, soft inside, smeared with red chili garlic paste and stuffed with potato masala.',
     price: '₹90',
-    image: 'https://images.unsplash.com/photo-1589301760014-d929f39ce9b1?auto=format&fit=crop&q=80&w=800&h=600',
+    image: 'https://i.ibb.co/ymSYD1m3/bennedosa1.jpg',
   },
   {
     id: 3,
@@ -175,7 +175,7 @@ export default function App() {
             >
               <div className="aspect-[4/5] rounded-3xl overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1589301760014-d929f39ce9b1?auto=format&fit=crop&q=80&w=1000" 
+                  src="https://i.ibb.co/ymSYD1m3/bennedosa1.jpg" 
                   alt="Making of Benne Dose" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
@@ -268,7 +268,7 @@ export default function App() {
           {[...Array(2)].map((_, i) => (
             <div key={i} className="flex gap-4">
               <img src="https://images.unsplash.com/photo-1668236543090-82eba5ee5976?auto=format&fit=crop&q=80&w=400&h=300" alt="Gallery" className="w-72 h-48 object-cover rounded-2xl opacity-80 hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
-              <img src="https://images.unsplash.com/photo-1589301760014-d929f39ce9b1?auto=format&fit=crop&q=80&w=400&h=300" alt="Gallery" className="w-72 h-48 object-cover rounded-2xl opacity-80 hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
+              <img src="https://i.ibb.co/ymSYD1m3/bennedosa1.jpg" alt="Gallery" className="w-72 h-48 object-cover rounded-2xl opacity-80 hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
               <img src="https://images.unsplash.com/photo-1630383249896-424e482dfcb6?auto=format&fit=crop&q=80&w=400&h=300" alt="Gallery" className="w-72 h-48 object-cover rounded-2xl opacity-80 hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
               <img src="https://images.unsplash.com/photo-1611162458324-aae1eb4129a4?auto=format&fit=crop&q=80&w=400&h=300" alt="Gallery" className="w-72 h-48 object-cover rounded-2xl opacity-80 hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
             </div>
